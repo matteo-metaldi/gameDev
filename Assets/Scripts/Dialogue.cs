@@ -47,6 +47,10 @@ public class Dialogue : MonoBehaviour
         {
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
+            if (c == '?')
+            {
+                yield return new WaitForSeconds(5);
+            }
         }
     }
 
