@@ -25,12 +25,13 @@ public class SceneChangeMenu : MonoBehaviour
         switch (yourButton.name)
         {
 
-            //MAIN MENU
             case "Play":
+                Cursor.visible = true;
                 SceneManager.LoadScene(sceneName: "MenuPlay");
                 break;
             case "Tutorial":
-                //SceneManager.LoadScene(sceneName: "MenuPlay");
+                Cursor.visible = true;
+                SceneManager.LoadScene(sceneName: "Tutorial");
                 break;
             case "Settings":
                 //SceneManager.LoadScene(sceneName: "MenuPlay");
@@ -39,11 +40,16 @@ public class SceneChangeMenu : MonoBehaviour
                 Application.Quit();
                 break;
 
+
+
             //MENU PLAY
             case "NewGame":
                 Debug.Log("ENTRO E CARICO");
+                Cursor.visible = true;
                 SceneManager.LoadScene(sceneName: "1_LaboOff");
-                Debug.Log("BORGO BIO");
+
+
+
                 break;
             case "Load":
                 //SceneManager.LoadScene(sceneName: "MenuPlay");
@@ -51,10 +57,17 @@ public class SceneChangeMenu : MonoBehaviour
             case "Achievements":
                 //SceneManager.LoadScene(sceneName: "MenuPlay");
                 break;
+            case "Back to menu":
             case "Back":
+                Cursor.visible = true;
                 SceneManager.LoadScene(sceneName: "MainMenu");
                 break;
+            case "End Credits":
 
+
+
+                SceneManager.LoadScene(sceneName: "Credits");
+                break;
             default:
                 break;
         }

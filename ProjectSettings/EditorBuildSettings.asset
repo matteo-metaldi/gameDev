@@ -12,6 +12,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu/MenuPlay.unity
     guid: db210942b84290e48876a5b77b9ed84c
   - enabled: 1
-    path: Assets/Scenes/0_Aereo/0_IntroAereo.unity
-    guid: e3bca1a6b14bc33458a2b15e91f52e33
+    path: Assets/Scenes/initialRoom.unity
+    guid: dd0b245ad7fb5fb45808e9713e5b48f3
+  - enabled: 1
+    path: Assets/Scenes/GameOver&VictoryScreen/GameOver.unity
+    guid: 896dc863993d7404f8443ab998a4d003
+  - enabled: 1
+    path: Assets/Scenes/1_Laboratorio/1_LaboOff.unity
+    guid: 83f4ec59573d6964a858688675211200
+  - enabled: 1
+    path: Assets/Scenes/FinalScene/FinalFight.unity
+    guid: 596d8c590a596424c9716d480edb37f4
+  - enabled: 1
+    path: Assets/Scenes/GameOver&VictoryScreen/Credits.unity
+    guid: 5acb0eca999824c4c86f05b88aefc744
+  - enabled: 1
+    path: Assets/Scenes/GameOver&VictoryScreen/VictoryScreen.unity
+    guid: c480aac86e18a7546ba4a07206635878
+  - enabled: 1
+    path: Assets/Scenes/labirinto/labirinto.unity
+    guid: aa8a58be72ec93e4788e80457512a692
+  - enabled: 1
+    path: Assets/Scenes/Tutorial/Tutorial.unity
+    guid: e0d659deeba3e5f44b7e548617e6baa3
   m_configObjects: {}
