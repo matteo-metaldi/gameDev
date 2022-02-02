@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.10203955, g: 0.19202092, b: 0.28491607, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -694,7 +694,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2590,9 +2590,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a075cad5dceeec47a4b249e08b3a474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalSeconds: 3
-  maxIntensity: 10
-  myLight: {fileID: 196080038}
 --- !u!108 &196080038
 Light:
   m_ObjectHideFlags: 0
@@ -20618,9 +20615,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a075cad5dceeec47a4b249e08b3a474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalSeconds: 3
-  maxIntensity: 10
-  myLight: {fileID: 477413782}
 --- !u!108 &477413782
 Light:
   m_ObjectHideFlags: 0
@@ -37229,7 +37223,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.28
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -42601,7 +42595,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.26
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -42889,9 +42883,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a075cad5dceeec47a4b249e08b3a474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalSeconds: 3
-  maxIntensity: 10
-  myLight: {fileID: 695481572}
 --- !u!108 &695481572
 Light:
   m_ObjectHideFlags: 0
@@ -42983,7 +42974,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -43221,9 +43212,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a075cad5dceeec47a4b249e08b3a474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalSeconds: 3
-  maxIntensity: 10
-  myLight: {fileID: 702907595}
 --- !u!108 &702907595
 Light:
   m_ObjectHideFlags: 0
@@ -48978,7 +48966,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.23
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -54346,7 +54334,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.24
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -65063,7 +65051,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.27
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -75192,7 +75180,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.23
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -75334,9 +75322,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a075cad5dceeec47a4b249e08b3a474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalSeconds: 3
-  maxIntensity: 10
-  myLight: {fileID: 1101349460}
 --- !u!108 &1101349460
 Light:
   m_ObjectHideFlags: 0
@@ -75526,9 +75511,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a075cad5dceeec47a4b249e08b3a474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalSeconds: 3
-  maxIntensity: 10
-  myLight: {fileID: 1118950093}
 --- !u!108 &1118950093
 Light:
   m_ObjectHideFlags: 0
@@ -75898,7 +75880,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.28
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -82469,7 +82451,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.27
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -83071,9 +83053,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a075cad5dceeec47a4b249e08b3a474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalSeconds: 3
-  maxIntensity: 10
-  myLight: {fileID: 1336938107}
 --- !u!108 &1336938107
 Light:
   m_ObjectHideFlags: 0
@@ -83976,7 +83955,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.21
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -95699,9 +95678,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a075cad5dceeec47a4b249e08b3a474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalSeconds: 3
-  maxIntensity: 10
-  myLight: {fileID: 1557714070}
 --- !u!108 &1557714070
 Light:
   m_ObjectHideFlags: 0
@@ -107219,7 +107195,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.21
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -107602,7 +107578,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.17
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -124156,7 +124132,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.17
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -129868,7 +129844,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -135219,7 +135195,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.19
   m_Pitch: 1
   Loop: 0
   Mute: 0
