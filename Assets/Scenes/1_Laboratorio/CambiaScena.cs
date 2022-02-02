@@ -22,7 +22,7 @@ public class CambiaScena : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(sceneName: "2_LabGenAuto"); ;
+            SceneManager.LoadScene(sceneName: "2_LabGenAuto");
         }
     }
 

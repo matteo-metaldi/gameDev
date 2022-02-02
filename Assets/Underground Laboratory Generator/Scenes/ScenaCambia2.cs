@@ -21,7 +21,7 @@ public class ScenaCambia2 : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(sceneName: "2_LabGenAuto"); ;
+            SceneManager.LoadScene(sceneName: "labirinto"); ;
         }
     }
 }
