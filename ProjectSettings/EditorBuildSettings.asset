@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial/Tutorial.unity
     guid: e0d659deeba3e5f44b7e548617e6baa3
+  - enabled: 1
+    path: Assets/Underground Laboratory Generator/Scenes/2_LabGenAuto.unity
+    guid: 9d5b8a7eab91a9e46b1b640a3de84450
   m_configObjects: {}
