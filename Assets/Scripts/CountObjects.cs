@@ -8,6 +8,7 @@ public class CountObjects : MonoBehaviour
     public string nextLevel;
     public GameObject objToDestry;
     [SerializeField] TextMeshProUGUI m_Object;
+    [SerializeField] TextMeshProUGUI missing;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,8 @@ public class CountObjects : MonoBehaviour
         if (ObjectsToCollect.objects == 0)
         {
             Destroy(objToDestry);
-            m_Object.text = "The door is open!";
+            missing.text = "The door is open!";
+            m_Object.text = "";
         }
     }
 }
