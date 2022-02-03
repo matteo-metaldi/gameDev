@@ -21,7 +21,7 @@ public class ChangeSceneLabirinto : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(sceneName: "FinalScene");
+            SceneManager.LoadScene(sceneName: "FinalFight");
         }
     }
 }
