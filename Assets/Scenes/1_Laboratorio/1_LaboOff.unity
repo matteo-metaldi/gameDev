@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.38522753, g: 0.47261494, b: 0.61848855, a: 1}
+  m_IndirectSpecularColor: {r: 0.38522792, g: 0.47261608, b: 0.618491, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2390,7 +2390,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &183832901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2417,9 +2417,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b295a7941ca978488152fa031b638df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 2
   range: 10
-  attackRate: 0.5
+  attackRate: 2
   firePoint: {fileID: 1054968955}
   fpsCam: {fileID: 1054968955}
   muzzleflash: {fileID: 1065664508}
@@ -2450,8 +2450,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.7
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &183832905
@@ -8003,7 +8003,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &251050711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8018,7 +8018,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 10
   range: 10
-  attackRate: 0.5
+  attackRate: 2
   firePoint: {fileID: 1835431031}
   fpsCam: {fileID: 1835431031}
   muzzleflash: {fileID: 1500012745}
@@ -8049,8 +8049,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.7
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &251050714
@@ -20515,7 +20515,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &469820339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20542,9 +20542,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b295a7941ca978488152fa031b638df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 2
   range: 10
-  attackRate: 0.5
+  attackRate: 2
   firePoint: {fileID: 748438219}
   fpsCam: {fileID: 748438219}
   muzzleflash: {fileID: 1755229266}
@@ -20575,8 +20575,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.7
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &469820343
@@ -26998,7 +26998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Object: {fileID: 723517455}
-  healt: 50
+  healt: 100
 --- !u!114 &607304142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77016,7 +77016,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1192998990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77043,9 +77043,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b295a7941ca978488152fa031b638df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 2
   range: 10
-  attackRate: 0.5
+  attackRate: 2
   firePoint: {fileID: 2084785864}
   fpsCam: {fileID: 2084785864}
   muzzleflash: {fileID: 2039472983}
@@ -77076,8 +77076,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.7
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &1192998994
@@ -84488,7 +84488,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1403232506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84515,9 +84515,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b295a7941ca978488152fa031b638df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 2
   range: 10
-  attackRate: 0.5
+  attackRate: 2
   firePoint: {fileID: 1412977990}
   fpsCam: {fileID: 1412977990}
   muzzleflash: {fileID: 739463951}
@@ -84548,8 +84548,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.7
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &1403232510
@@ -85696,7 +85696,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1464551339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85723,9 +85723,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b295a7941ca978488152fa031b638df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 2
   range: 10
-  attackRate: 0.5
+  attackRate: 2
   firePoint: {fileID: 1223856156}
   fpsCam: {fileID: 1223856156}
   muzzleflash: {fileID: 1804126859}
@@ -85756,8 +85756,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.7
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &1464551343
@@ -96489,7 +96489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Object: {fileID: 1957701821}
   damage: 10
-  range: 100
+  range: 1000
   reloadRevolver: {fileID: 8300000, guid: 42a1c6958a05ca54cbb9a2fed65d85b8, type: 3}
   shootRevolver: {fileID: 8300000, guid: 6aa191e324524c44aac3f2011f60c287, type: 3}
   soundSource: {fileID: 1085917920}
@@ -96989,7 +96989,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1604558990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97016,9 +97016,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b295a7941ca978488152fa031b638df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 2
   range: 10
-  attackRate: 0.5
+  attackRate: 2
   firePoint: {fileID: 1861889952}
   fpsCam: {fileID: 1861889952}
   muzzleflash: {fileID: 650400060}
@@ -97049,8 +97049,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.7
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &1604558994
@@ -97627,7 +97627,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1644366118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97654,9 +97654,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b295a7941ca978488152fa031b638df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 2
   range: 10
-  attackRate: 0.5
+  attackRate: 2
   firePoint: {fileID: 1480281113}
   fpsCam: {fileID: 1480281113}
   muzzleflash: {fileID: 975897462}
@@ -97687,8 +97687,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.7
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &1644366122
@@ -97803,7 +97803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Object: {fileID: 1957701821}
   damage: 10
-  range: 10
+  range: 1000
   reloadRevolver: {fileID: 8300000, guid: c3dd11d63bf87754594ccff7720af164, type: 3}
   shootRevolver: {fileID: 8300000, guid: 159d1a02f7486ea47b2572efc0433c46, type: 3}
   soundSource: {fileID: 1085917920}
@@ -97931,7 +97931,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1665267875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97958,9 +97958,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b295a7941ca978488152fa031b638df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 2
   range: 10
-  attackRate: 0.5
+  attackRate: 2
   firePoint: {fileID: 1997371103}
   fpsCam: {fileID: 1997371103}
   muzzleflash: {fileID: 958755415}
@@ -97991,8 +97991,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.7
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &1665267879
@@ -114000,7 +114000,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1772058060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114015,7 +114015,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 10
   range: 10
-  attackRate: 0.5
+  attackRate: 2
   firePoint: {fileID: 1247536203}
   fpsCam: {fileID: 1247536203}
   muzzleflash: {fileID: 1234859591}
@@ -114046,8 +114046,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.7
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1772058063
@@ -119257,7 +119257,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1805130038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119284,9 +119284,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b295a7941ca978488152fa031b638df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 2
   range: 10
-  attackRate: 0.5
+  attackRate: 2
   firePoint: {fileID: 39316161}
   fpsCam: {fileID: 39316161}
   muzzleflash: {fileID: 232343322}
@@ -119317,8 +119317,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.7
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &1805130042
@@ -119433,7 +119433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Object: {fileID: 1957701821}
   damage: 10
-  range: 10
+  range: 1000
   reloadRevolver: {fileID: 8300000, guid: b63ac702fafd5744a8520fc3cbb9364b, type: 3}
   shootRevolver: {fileID: 8300000, guid: 3d69f0e8b7a9fb042a9680b1f29cfef4, type: 3}
   soundSource: {fileID: 1085917920}
@@ -124406,7 +124406,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1822707411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124433,9 +124433,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b295a7941ca978488152fa031b638df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 2
   range: 10
-  attackRate: 0.5
+  attackRate: 2
   firePoint: {fileID: 482952950}
   fpsCam: {fileID: 482952950}
   muzzleflash: {fileID: 1677059384}
@@ -124466,8 +124466,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.7
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &1822707415
@@ -124843,7 +124843,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1836947816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124870,9 +124870,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b295a7941ca978488152fa031b638df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 2
   range: 10
-  attackRate: 0.5
+  attackRate: 2
   firePoint: {fileID: 683408617}
   fpsCam: {fileID: 683408617}
   muzzleflash: {fileID: 1543481751}
@@ -124903,8 +124903,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.7
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &1836947820
@@ -125319,7 +125319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Object: {fileID: 1957701821}
   damage: 10
-  range: 10
+  range: 1000
   reloadRevolver: {fileID: 0}
   shootRevolver: {fileID: 8300000, guid: 5b805c3b45ce8274fa81bbc374c70361, type: 3}
   soundSource: {fileID: 1085917920}
@@ -131029,7 +131029,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1911320887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131056,9 +131056,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b295a7941ca978488152fa031b638df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 2
   range: 10
-  attackRate: 0.5
+  attackRate: 2
   firePoint: {fileID: 420070007}
   fpsCam: {fileID: 420070007}
   muzzleflash: {fileID: 1692775186}
@@ -131089,8 +131089,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.7
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!195 &1911320891
@@ -137844,7 +137844,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2029801972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137859,7 +137859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 10
   range: 10
-  attackRate: 0.5
+  attackRate: 2
   firePoint: {fileID: 1279132398}
   fpsCam: {fileID: 1279132398}
   muzzleflash: {fileID: 419621916}
@@ -137890,8 +137890,8 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.7
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2029801975
