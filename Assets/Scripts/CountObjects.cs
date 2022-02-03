@@ -17,7 +17,7 @@ public class CountObjects : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        objUI.GetComponent<Text>().text = "missing cubes: " + ObjectsToCollect.objects.ToString();
+        objUI.GetComponent<Text>().text = ObjectsToCollect.objects.ToString();
         if(ObjectsToCollect.objects == 0)
         {
             Destroy(objToDestry);

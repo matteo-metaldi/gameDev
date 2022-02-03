@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: MAMR Studios
-  productName: projGameDev
+  productName: David Blake:crisi televisiva
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -43,10 +43,6 @@ PlayerSettings:
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
     duration: 2
   - logo: {fileID: 21300000, guid: 353bbe558540c9046b775eb34aa5687e, type: 3}
-    duration: 3
-  - logo: {fileID: 21300000, guid: cd0657fbb6e803549ab5a01096d3b935, type: 3}
-    duration: 3
-  - logo: {fileID: 21300000, guid: bf6e7ec82b02bf54a8f575e2ad1ad437, type: 3}
     duration: 3
   m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 353bbe558540c9046b775eb34aa5687e, type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
